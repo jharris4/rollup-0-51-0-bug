@@ -1008,9 +1008,9 @@ rollup-pluginutils@^2.0.1:
     estree-walker "^0.3.0"
     micromatch "^2.3.11"
 
-rollup@^0.51.0:
-  version "0.51.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.51.0.tgz#bee110391dd42a48d61f31804807a80be4a085e5"
+rollup@0.50.1:
+  version "0.50.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.50.1.tgz#e4dafcbf8d2bb0d9f5589d0cc6f64d76b8815730"
 
 setimmediate@^1.0.5:
   version "1.0.5"

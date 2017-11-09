@@ -14,6 +14,8 @@ function createCommonjsModule(fn, module) {
 	return module = { exports: {} }, fn(module, module.exports), module.exports;
 }
 
+"use strict";
+
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -57,6 +59,8 @@ var emptyFunction_1 = emptyFunction;
  *
  */
 
+'use strict';
+
 function invariant(condition, format, a, b, c, d, e, f) {
   if (!condition) {
     var error;
@@ -85,9 +89,24 @@ var invariant_1 = invariant;
  * LICENSE file in the root directory of this source tree.
  */
 
+'use strict';
+
 var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 var ReactPropTypesSecret_1 = ReactPropTypesSecret;
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+'use strict';
+
+
+
+
 
 var factoryWithThrowingShims = function() {
   function shim(props, propName, componentName, location, propFullName, secret) {
@@ -151,6 +170,8 @@ var propTypes = createCommonjsModule(function (module) {
 });
 
 var lib = createCommonjsModule(function (module, exports) {
+'use strict';
+
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
